@@ -1,0 +1,11 @@
+入栈函数
+void push(char *pstr, struct Stack *s);
+
+出栈函数
+char * pop(struct Stack *s);
+
+判断栈是否为空：
+int empty(struct Stack s);
+
+获得栈顶元素（不弹出）
+char top(struct Stack s);
